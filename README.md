@@ -26,7 +26,10 @@ git remote add origin https://github.com/ВашЛогинНаГитхаб/GitNam
 ## Создать основную ветку
 git branch -M main
 ## Перенести локальный репозиторий
-
-##
-
-##
+git push -u origin main
+## Посмотреть подключен ли удаленный репозиторий
+git remote -v
+## закоммитить версию проекта 
+git commit -m “комментарий”
+## проверка проекта на git bush 
+git status
